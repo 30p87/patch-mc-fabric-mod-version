@@ -2,7 +2,7 @@ If ((Test-Path "$Env:AppData\notflix.py") -eq $False) {
   mkdir $Env:AppData\patchjar
 }
 
-cp main.py $Env:AppData\patchjar
+cp main.py $Env:AppData\patchjar\patchjar.py
 
 $is = $False
 foreach ($_path in ($Env:PATH).split(";")) {
