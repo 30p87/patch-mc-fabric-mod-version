@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo cp main.py /bin/
-sudo chmod +x /bin/main.py
+sudo cp main.py /bin/patchjar.py
+sudo chmod +x /bin/patchjar.py
