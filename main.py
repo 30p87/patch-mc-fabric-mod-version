@@ -53,7 +53,7 @@ def main(path, version, output, tmp):
 
 if __name__ == '__main__':
     argparser = ArgumentParser(description='A simple tool to remove the Minecraft version limitation in Minecraft fabric mods. Useful for snapshot players who use simple mods that wouldn\'t need to be updated')
-    argparser.add_argument('-p', '--path', help='The path to the file to patch', type=str)
+    argparser.add_argument('-p', '--path', help='The path to the file to patch', required=False, type=str)
     argparser.add_argument('-v', '--version', help='Which version string (regex or smth) the mod should require now', required=False, type=str)
     argparser.add_argument('-o', '--output', help='Which file the patched jar should be written to', required=False, type=str)
     argparser.add_argument('--tmp', help='Where to store the temporary files', required=False, type=str)
