@@ -1,4 +1,4 @@
-If ((Test-Path "$Env:AppData\notflix.py") -eq $False) {
+If ((Test-Path "$Env:AppData\patchjar") -eq $False) {
   mkdir $Env:AppData\patchjar
 }
 
